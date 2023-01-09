@@ -6,8 +6,11 @@ Variables
     --color-bg: #ffffff;
     --color-highlight: #000000;
     --color-default: #494745;
-    --color-dim: #797673;
+    --color-dim: #BAB6B1;
     --color-vdim: #494745;
+    --genei-accent: rgb(89, 212, 161);
+    --halo-accent: rgb(26, 167, 255);
+    --oxford-accent: rgb(13, 0, 255);
     --font-sans: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
     --font-serif: BlancoWeb,Times,serif;
     --font-size: 16px;
@@ -306,6 +309,18 @@ section.posts ul {
 
 article header {
     margin-bottom: var(--spacing-xl);
+}
+
+#genei .label {
+    color: var(--genei-accent);
+}
+
+#halo .label {
+    color: var(--halo-accent);
+}
+
+#oxford .label {
+    color: var(--oxford-accent);
 }
 
 /* -----------------------------------
