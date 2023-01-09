@@ -1,4 +1,19 @@
 ### TODO:
+
+- [ ] Get proper text
+
+- [ ] Add photo
+
+- [ ] Change to [Nanum Myeongjo](https://fonts.google.com/specimen/Nanum+Myeongjo/tester?category=Serif)
+
+- [ ] Move to react
+
+- [ ] Make photo artistic and dynamic
+
+- [ ] Add blog
+
+- [ ] Add dynamic nav
+
 - [ ] RSS Feed: `<!-- <link rel="alternate" type="application/rss+xml" title="RSS Feed for Thomas Foster" href="/feed.xml" /> -->`
 - [ ] Fav Icons: 
 ```
@@ -31,3 +46,4 @@
 <meta property="twitter:image" content="<image url>">
 <meta property="twitter:site" content="@tom_with_a_h">
 ```
+

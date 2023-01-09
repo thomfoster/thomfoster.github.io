@@ -116,8 +116,8 @@ body>header h1 {
 
 body>header img {
     display: block;
-    border-radius: 100%;
-    height: calc(3 * var(--spacing));
+    height: calc(15 * var(--spacing));
+    padding-left: calc();
     width: auto;
 }
 
@@ -232,7 +232,7 @@ figure, video, audio {
 }
 
 figure img {
-    width: 100%;
+    width: 10px;
     height: auto;
 }
 
@@ -353,4 +353,11 @@ iframe[src*="youtube"] {
     max-width: var(--spacing-width-xl);
     width: 100%;
 	aspect-ratio: 16/9;
+}
+
+img {
+    width: 100%;
+    max-width: calc(0.4 * var(--spacing-width-max));
+    margin-bottom: 25px;
+    display: block;
 }
