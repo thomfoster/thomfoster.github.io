@@ -8,29 +8,35 @@ html, body {
     box-sizing: border-box;
     background-color: #ffffff;
     height: 100%;
-    padding: 10px;
+    padding: auto;
     margin: 0px;
   }
 
 .container {
     height: 100%;
+    max-width: 700px;
+    margin: auto;
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto 600px auto;
-    grid-template-rows: 200px auto 100px;
+    grid-gap: 40px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto 100px;
+}
+
+.container > div {
+    /* border: 1px solid brown; */
 }
 
 .header {
-    grid-column: 2 / 3;
+    grid-column: 5 / -2;
 }
 
 .content {
-    grid-column: 2 / 3;
+    grid-column: 2 / -2;
 }
 
 .hero {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-column: 2 / 5;
+    grid-row: 1 / 1;
 }
 
 .hero > img {
@@ -38,5 +44,5 @@ html, body {
 }
 
 .footer {
-    grid-column: 2 / 3;
+    grid-column: 2 / -2;
 }
