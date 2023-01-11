@@ -1,0 +1,16 @@
+.split {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.split > div {
+    border: 1px solid black;
+}
+
+.split > .label {
+    grid-column: 1 / 2;
+}
+
+.split > .content {
+    grid-column: 2 / 3;
+}
