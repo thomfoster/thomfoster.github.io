@@ -14,10 +14,13 @@ html, body {
     grid-gap: 5px;
     max-width: 650px;
     margin: auto;
+    padding: 30px;
     grid-template-columns: repeat(12, 1fr);
     /* grid-template-rows: 100px auto 100px; */
     /* justify-content: space-around; */
 }
+
+@med
 
 .container > div {
     font-size: 1em;
@@ -25,16 +28,17 @@ html, body {
 }
 
 .header {
-    grid-column: 1 / 4;
+    grid-column: 1 / -1;
+}
+
+.hero {
+    grid-column: 1 / -1;
 }
 
 .content {
     grid-column: 1 / -1;
 }
 
-.hero {
-    grid-column: 6 / -1;
-}
 
 .hero > img {
     max-width: 100%;
@@ -47,4 +51,14 @@ html, body {
 
 section {
     padding-top: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+    .header {
+        grid-column: 1 / 4;
+    }
+    
+    .hero {
+        grid-column: 6 / -1;
+    
 }
