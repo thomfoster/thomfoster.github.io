@@ -98,6 +98,7 @@ small {
 
 .label {
     font-size: var(--font-size-s);
+    color: var(--color-vdim);
 }
 
 .content > p {
