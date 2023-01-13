@@ -116,7 +116,7 @@ small {
     padding-bottom: var(--spacing-m);
 }
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .header {
         margin-bottom: calc(2 * var(--spacing-m));
     }
@@ -126,7 +126,7 @@ small {
     .container {
         padding: calc(0.5 * var(--spacing-m))
     }
-} */
+}
 
 /* 
 body>header a{
