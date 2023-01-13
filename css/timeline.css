@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     margin-bottom: var(--spacing-m);
+    column-gap: calc(0.3 * var(--spacing-m));
 }
 
 .split > div {
