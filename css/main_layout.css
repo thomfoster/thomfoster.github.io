@@ -7,8 +7,7 @@ html, body {
     max-width: 600px;
     height: 100%;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     /* grid-template-rows: 100px auto 100px; */
@@ -19,11 +18,13 @@ html, body {
 
 /* One column layout by default */
 .header {
-    grid-column: 1 / -1;
+    grid-column: 4 / 12;
+    align-self: center;
 }
 
 .hero {
-    grid-column: 1 / -1;
+    grid-column: 1 / 4;
+    grid-row: 1;
 }
 
 .main {
@@ -34,8 +35,8 @@ html, body {
     grid-column: 1 / -1;
 }
 
-/* Medium sizes get image and header inline */
-@media only screen and (min-width: 600px) {
+Medium sizes get image and header inline
+@media only screen and (min-width: 0px) {
     .header {
         grid-column: 4 / 12;
         align-self: center;
