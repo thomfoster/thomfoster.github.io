@@ -1,6 +1,7 @@
 .split {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    margin-bottom: var(--spacing-m);
 }
 
 .split > div {
