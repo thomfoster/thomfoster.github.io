@@ -1,0 +1,48 @@
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    max-width: 600px;
+    height: 100%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: 100px auto 100px; */
+    /* justify-content: space-around; */
+    /* row-gap: 55px; */
+    column-gap: 20px;
+}
+
+/* One column layout by default */
+.header {
+    grid-column: 1 / -1;
+}
+
+.hero {
+    grid-column: 1 / -1;
+}
+
+.main {
+    grid-column: 1 / -1;
+}
+
+.footer {
+    grid-column: 1 / -1;
+}
+
+/* Medium sizes get image and header inline */
+@media only screen and (min-width: 600px) {
+    .header {
+        grid-column: 4 / 12;
+        align-self: center;
+    }
+    
+    .hero {
+        grid-column: 1 / 4;
+        grid-row: 1;
+    }
+}
