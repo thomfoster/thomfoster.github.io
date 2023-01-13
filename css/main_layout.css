@@ -22,6 +22,14 @@ html, body {
     align-self: center;
 }
 
+#wide-image {
+    display: block
+}
+
+#closeup-image {
+    display: none;
+}
+
 .hero {
     grid-column: 1 / 4;
     grid-row: 1;
@@ -45,5 +53,13 @@ Medium sizes get image and header inline
     .hero {
         grid-column: 1 / 4;
         grid-row: 1;
+    }
+
+    #wide-image {
+        display: none
+    }
+    
+    #closeup-image {
+        display: block;
     }
 }
