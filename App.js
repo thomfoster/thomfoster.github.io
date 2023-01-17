@@ -29,18 +29,12 @@ function About () {
     return (
         <section className="about">
             <h2>About</h2>
+
+            <p>Hey, I'm Thom! I'm not quite sure what to call myself - not so long ago I was a student, and up until recently I was an entrepreuner. More on that below. </p>
             
-            <p>I'm currently learning, building and researching at the intersection of reinforcement learning, language and AI safety. 
-            This means I'm looking to design agents that do things in a safe fashion.
-            I'm particularly interested in X, and am currently seeking a PhD to do research full time.
-            Check out <a href="/research.html"><em>research</em></a>/research for more here. 
-            </p>
-            <p>In between graduating from Oxford and deciding to pursue research full time, I founded several successful startups.
-            Before focusing on research, I founded and was head of AI at genei. 
-            We use large language models to speed up research.
-            We went through YC combinator in 2021 and recieved funding from some great people.
-            If this excites you, we're hiring!</p>
-            <p>In my spare time I love running and the outdoors.</p>
+            <p>Since late 2022, I've been increasinly focused on research, and am currently excitedly exploring opportunities in academia and industry. I'm particularly interested in how techniques from RL, language and AI safety can be combined to create deep learning models that are powerful whilst being reliable, controllable and explainable.</p>
+
+            <p>Outside of work I love running and the outdoors.</p>
         </section>
     )
 }
@@ -53,7 +47,7 @@ function TimelineItem (props) {
             <div className="content">
                 <h3>{title}</h3>
                 <small>{subtitle}</small>
-                <p>{body}</p>
+                <p dangerouslySetInnerHTML={{'__html':body}}></p>
             </div>
         </div>
     )
@@ -61,10 +55,10 @@ function TimelineItem (props) {
 
 function Timeline () {
     return (
-        <div className="timeline">
+        <section className="timeline">
             <h2>Timeline</h2>
             {timeline.map((el) => (TimelineItem(el)))}
-        </div>
+        </section>
     )
 }
 
@@ -80,7 +74,7 @@ function Main () {
 function Footer () {
     return (
         <div className="footer">
-            <h3>This site is currently unpublished, any facts or figures must be treated as draft.</h3>
+            <h3>Made with love (and react) by me in 2023.</h3>
         </div>
     )
 }

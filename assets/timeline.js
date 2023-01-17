@@ -11,13 +11,13 @@ const timeline = [
         "label": "2020",
         "title": "Halo",
         "subtitle": "Founder and Chief Technology Officer",
-        "body": "Whirlwind ride trying to help out during the pandemic. Started doing PCR tests out of a shipping container with a friend from uni. Scaled to 1,000 tests a day. I've written more about my experiences with Halo here."
+        "body": "During the pandemic I was growing increasingly frustrated at the low-tech, cumbersome procedure to get COVID-19 tests. I decided to help, and founded Halo, a biotechnology company, with a friend from university. Through integrating an easy to use app with proprietary in lab sample tracking software, we scaled to over 1000 tests per day and had a meaningful impact on Britains pandemic response."
     },
     {
         "id": "oxford",
         "label": "2016-2020",
         "title": "University of Oxford",
         "subtitle": "Master's in Computer Science",
-        "body": "2nd in cohort. Microsoft prize for best undergrad dissertation."
+        "body": "Graduated 2nd in cohort and won the Microsoft prize for best undergraduate dissertation, which you can <a href='https://arxiv.org/abs/2005.11300'><u>read here</u></a>."
     },
 ]
