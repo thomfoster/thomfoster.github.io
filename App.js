@@ -32,9 +32,11 @@ function About () {
 
             <p>Hey, I'm Thom! I'm not quite sure what to call myself - not so long ago I was a student, and up until recently I was an entrepreuner. More on that below. </p>
             
-            <p>Since late 2022, I've been increasinly focused on research, and am currently excitedly exploring opportunities in academia and industry. I'm particularly interested in how techniques from RL, language and AI safety can be combined to create deep learning models that are powerful whilst being reliable, controllable and explainable.</p>
+            <p>Since late 2022, I've been increasinly focused on research, and am currently excitedly exploring opportunities in academia and industry. I'm particularly interested in how we can automate the evaluation and training of deep neural nets.</p>
 
-            <p>Outside of work I love running and the outdoors.</p>
+            <p>This means I'm interested in how we evaluate models on complex criteria (such as with learned reward functions), how we can systematically generate examples the model finds challenging (as in curriculum learning, active/adversarial learning, and open ended RL) and how we can turn this into a useful training paradigm (such as RLHF). </p>
+
+            <p>Outside of work I love running and the outdoors. If any of the above interests you, get in touch!</p>
         </section>
     )
 }
