@@ -10,6 +10,8 @@
 
 - [ ] Add socials, link to blog from various places, like twitter, github
 
+- [ ] Add a "latest updates" section to homepage to display recent blog posts, updates etc
+
 - [X] Get proper text
 
 - [X] Add photo
