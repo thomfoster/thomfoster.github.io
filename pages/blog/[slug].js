@@ -5,7 +5,7 @@ import Head from "next/head";
 
 export default function Post({ postData }) {
     return (
-        <Layout>
+        <Layout retPage="/blog">
             <Head>
                 <title>{postData.title}</title>
             </Head>

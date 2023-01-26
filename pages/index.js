@@ -47,7 +47,7 @@ function Timeline () {
 
 export default function App () {
     return (
-        <Layout>
+        <Layout retPage="/">
             <Image priority src="/images/me.png" className={styles.wideImage} width={1024} height={1024}/>
             <About />
             <Timeline />
