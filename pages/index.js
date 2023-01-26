@@ -13,9 +13,9 @@ function About () {
 
             <p>Hey! I'm Thom. I'm not quite sure what to call myself - not so long ago I was a student, and up until recently I was an entrepreuner. More on that below. </p>
             
-            <p>Since late 2022, I've been increasinly focused on research, and am currently excitedly exploring opportunities in academia and industry. I'm particularly interested in how we can automate the evaluation and training of deep neural nets.</p>
+            <p>Since late 2022, I've been increasingly focused on research, and am currently excitedly exploring opportunities in academia and industry. I'm particularly interested in how we can automate the evaluation and training of deep neural nets.</p>
 
-            <p>This means I'm interested in how we evaluate models on complex criteria (such as with learned reward functions), how we can systematically generate examples the model finds challenging (as in curriculum/active/adversarial learning) and how we can turn this into a useful training paradigm (such as RLHF or open ended RL). If this interests you, read more about my <Link href="/research">research interests</Link>.</p>
+            <p>This means I'm interested in how we evaluate models on complex criteria (such as with learned reward functions), how we can systematically generate examples the model finds challenging (as in curriculum/active/adversarial learning) and how we can turn this into a useful training paradigm (such as RLHF or open ended RL). If this interests you, you can read more about my <Link href="/research">research interests</Link>.</p>
 
             <p>Outside of work I love running, the outdoors and tinkering with <Link href="/projects">fun projects</Link>. Like any self-important programmer I have a <Link href="/blog">blog</Link>. If any of the above interests you, get in touch!</p>
         </section>
