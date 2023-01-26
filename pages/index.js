@@ -1,30 +1,5 @@
 import {timeline} from "../public/timeline";
-import Image from "next/image";
-
-function Header () {
-    return (
-        <div className="header">
-            <header>
-                <div>
-                    <a href="/">
-                        <h2>Thomas Foster</h2>
-                    </a>
-                    Building and exploring deep learning<br/>
-                    London, UK
-                </div>
-            </header>
-        </div>
-    )
-}
-
-function Hero () {
-    return (
-        <div className="hero">
-            <Image priority src="/images/me.png" id="wide-image" width={1024} height={1024}/>
-            <Image priority src="/images/me2.png" id="closeup-image" width={512} height={512} />
-        </div>
-    )
-}
+import Layout from "../components/layout";
 
 function About () {
     return (
@@ -65,30 +40,11 @@ function Timeline () {
     )
 }
 
-function Main () {
-    return (
-        <div className="main">
-            <About />
-            <Timeline />
-        </div>
-    )
-}
-
-function Footer () {
-    return (
-        <div className="footer">
-            <h3>Made with love (and react) by me in 2023.</h3>
-        </div>
-    )
-}
-
 export default function App () {
     return (
-        <div className="container">
-            <Header />
-            <Hero />
-            <Main />
-            <Footer />
-        </div>
+        <Layout>
+            <About />
+            <Timeline />
+        </Layout>
     )
 }

@@ -37,12 +37,6 @@ html {
     line-height: 1.5;
 }
 
-header {
-    text-decoration: none;
-    color: var(--color-vdim);
-    font-size: var(--font-size-s);
-}
-
 a:link {
     text-decoration: none;
     color: var(--color-highlight);
@@ -105,34 +99,12 @@ small {
     margin-top: calc(0.35 * var(--spacing-m));
 }
 
-.footer > h3 {
-    font-size: var(--font-size-xs);
-    color: var(--color-vdim);
-    font-weight: 300;
-    text-align: center;
-}
 
-.footer {
-    padding-top: calc(3 * var(--spacing-m));
-    padding-bottom: var(--spacing-m);
-}
 
 img {
     max-width: 100%;
     display: block;
     height: auto;
-}
-
-@media only screen and (max-width: 600px) {
-    .header {
-        margin-bottom: calc(2 * var(--spacing-m));
-    }
-    .main {
-        margin-top: calc(0 * var(--spacing-m));
-    }
-    .container {
-        padding: calc(0.5 * var(--spacing-m))
-    }
 }
 
 /* 
