@@ -3,7 +3,7 @@ Variables
 -------------------------------------- */
 
 :root {
-    --color-bg: hsl(190, 30%, 98%);
+    --color-bg: rgb(246, 245, 241);
     --color-highlight: #020204;
     --color-default: #070808;
     --color-dim: #415d68;
@@ -37,43 +37,19 @@ html {
     line-height: 1.5;
 }
 
-header {
-    text-decoration: none;
-    color: var(--color-vdim);
-    font-size: var(--font-size-s);
-}
-
-a:link {
-    text-decoration: none;
-    color: var(--color-highlight);
-    font-size: var(--font-size-s);
-}
-
-a:visited {
-    text-decoration: none;
-    color: var(--color-highlight);
-    font-size: var(--font-size-s);
-}
-
-/* 
-a:hover {
-    text-decoration: none;
-    color: var(--color-highlight);
-    font-size: var(--font-size-s);
-} */
-
 
 h2, h3 {
     font-size: var(--font-size-s);
     color: var(--color-highlight)
 }
 
-.main {
-    margin-top: calc(1 * var(--spacing-m));
+section {
+    margin-bottom: calc(3 * var(--spacing-m));
 }
 
-section {
-    margin-top: calc(3 * var(--spacing-m));
+a {
+    color: var(--color-default);
+    font-weight: 500;
 }
 
 section > h2 {
@@ -96,43 +72,11 @@ small {
     color: var(--color-dim);
 }
 
-.label {
-    font-size: var(--font-size-s);
-    color: var(--color-vdim);
-}
-
-.content > p {
-    margin-top: calc(0.35 * var(--spacing-m));
-}
-
-.footer > h3 {
-    font-size: var(--font-size-xs);
-    color: var(--color-vdim);
-    font-weight: 300;
-    text-align: center;
-}
-
-.footer {
-    padding-top: calc(3 * var(--spacing-m));
-    padding-bottom: var(--spacing-m);
-}
 
 img {
     max-width: 100%;
     display: block;
     height: auto;
-}
-
-@media only screen and (max-width: 600px) {
-    .header {
-        margin-bottom: calc(2 * var(--spacing-m));
-    }
-    .main {
-        margin-top: calc(0 * var(--spacing-m));
-    }
-    .container {
-        padding: calc(0.5 * var(--spacing-m))
-    }
 }
 
 /* 

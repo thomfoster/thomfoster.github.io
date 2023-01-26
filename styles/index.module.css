@@ -1,0 +1,10 @@
+.wideImage {
+    display: block;
+    margin-bottom: 4rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .wideImage {
+        display: none;
+    }
+}

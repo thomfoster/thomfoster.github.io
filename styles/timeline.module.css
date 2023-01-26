@@ -16,3 +16,12 @@
 .split > .content {
     grid-column: 2 / 3;
 }
+
+.label {
+    font-size: var(--font-size-s);
+    color: var(--color-vdim);
+}
+
+.content > p {
+    margin-top: calc(0.35 * var(--spacing-m));
+}
