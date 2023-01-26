@@ -1,4 +1,5 @@
-const app = document.getElementById("app");
+import {timeline} from "../public/timeline";
+import Image from "next/image";
 
 function Header () {
     return (
@@ -19,8 +20,8 @@ function Header () {
 function Hero () {
     return (
         <div className="hero">
-            <img id="wide-image" src="assets/me.png"/>
-            <img id="closeup-image" src="assets/me2.png"/>
+            <Image priority src="/images/me.png" id="wide-image" width={1024} height={1024}/>
+            <Image priority src="/images/me2.png" id="closeup-image" width={512} height={512} />
         </div>
     )
 }
@@ -81,7 +82,7 @@ function Footer () {
     )
 }
 
-function App () {
+export default function App () {
     return (
         <div className="container">
             <Header />
@@ -91,5 +92,3 @@ function App () {
         </div>
     )
 }
-
-ReactDOM.render(<App />, app)

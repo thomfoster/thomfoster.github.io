@@ -1,4 +1,4 @@
-const timeline = [
+export const timeline = [
     {
         "id": "genei",
         "label": "2019-Now",
