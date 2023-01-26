@@ -62,12 +62,8 @@ h2, h3 {
     color: var(--color-highlight)
 }
 
-.main {
-    margin-top: calc(1 * var(--spacing-m));
-}
-
 section {
-    margin-top: calc(3 * var(--spacing-m));
+    margin-bottom: calc(3 * var(--spacing-m));
 }
 
 section > h2 {
