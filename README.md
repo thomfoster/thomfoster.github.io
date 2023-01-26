@@ -12,6 +12,10 @@
 
 - [ ] Add a "latest updates" section to homepage to display recent blog posts, updates etc
 
+- [ ] Add an accumulating papers section to research prop
+
+- [ ] Add in research prop slides
+
 - [X] Get proper text
 
 - [X] Add photo
