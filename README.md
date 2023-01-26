@@ -1,20 +1,31 @@
 ### TODO:
 
-- [ ] Get proper text
+- [ ] Publish research page
 
-- [ ] Add photo
+- [ ] Make projects cards
+
+- [ ] Publish a blog post
+
+- [ ] Add in your publication
+
+- [ ] Add socials, link to blog from various places, like twitter, github
+
+- [X] Get proper text
+
+- [X] Add photo
 
 - [ ] Change to [Nanum Myeongjo](https://fonts.google.com/specimen/Nanum+Myeongjo/tester?category=Serif)
 
-- [ ] Move to react
+- [X] Move to react
 
 - [ ] Make photo artistic and dynamic
 
-- [ ] Add blog
+- [X] Add blog
 
 - [ ] Add dynamic nav
 
 - [ ] RSS Feed: `<!-- <link rel="alternate" type="application/rss+xml" title="RSS Feed for Thomas Foster" href="/feed.xml" /> -->`
+
 - [ ] Fav Icons: 
 ```
 <!-- Fav Icon -->
