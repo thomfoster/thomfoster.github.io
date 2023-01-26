@@ -20,7 +20,6 @@ function Header () {
 function Hero () {
     return (
         <div className={styles.hero}>
-            <Image priority src="/images/me.png" className={styles.wideImage} width={1024} height={1024}/>
             <Image priority src="/images/me2.png" className={styles.closeUpImage} width={512} height={512} />
         </div>
     )

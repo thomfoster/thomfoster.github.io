@@ -1,6 +1,9 @@
 import {timeline} from "../public/timeline";
 import Layout from "../components/layout";
-import styles from "../styles/timeline.module.css"
+import timelineStyles from "../styles/timeline.module.css";
+import styles from "../styles/index.module.css";
+
+import Image from "next/image";
 
 function About () {
     return (
@@ -21,9 +24,9 @@ function About () {
 function TimelineItem (props) {
     const {id, label, title, subtitle, body} = props
     return (
-        <div className={styles.split} id={id} key={id}>
-            <div className={styles.label}>{label}</div>
-            <div className={styles.content}>
+        <div className={timelineStyles.split} id={id} key={id}>
+            <div className={timelineStyles.label}>{label}</div>
+            <div className={timelineStyles.content}>
                 <h3>{title}</h3>
                 <small>{subtitle}</small>
                 <p dangerouslySetInnerHTML={{'__html':body}}></p>
@@ -34,7 +37,7 @@ function TimelineItem (props) {
 
 function Timeline () {
     return (
-        <section className={styles.timeline}>
+        <section className={timelineStyles.timeline}>
             <h2>Timeline</h2>
             {timeline.map((el) => (TimelineItem(el)))}
         </section>
@@ -44,6 +47,7 @@ function Timeline () {
 export default function App () {
     return (
         <Layout>
+            <Image priority src="/images/me.png" className={styles.wideImage} width={1024} height={1024}/>
             <About />
             <Timeline />
         </Layout>
