@@ -2,6 +2,7 @@ import {timeline} from "../public/timeline";
 import Layout from "../components/layout";
 import timelineStyles from "../styles/timeline.module.css";
 import styles from "../styles/index.module.css";
+import Link from "next/link";
 
 import Image from "next/image";
 
@@ -12,11 +13,11 @@ function About () {
 
             <p>Hey! I'm Thom. I'm not quite sure what to call myself - not so long ago I was a student, and up until recently I was an entrepreuner. More on that below. </p>
             
-            <p>Since late 2022, I've been increasinly focused on research, and am currently excitedly exploring opportunities in academia and industry. I'm particularly interested in how we can automate the evaluation and training of deep neural nets.</p>
+            <p>Since late 2022, I've been increasinly focused on <Link href="/research">research</Link>, and am currently excitedly exploring opportunities in academia and industry. I'm particularly interested in how we can automate the evaluation and training of deep neural nets.</p>
 
-            <p>This means I'm interested in how we evaluate models on complex criteria (such as with learned reward functions), how we can systematically generate examples the model finds challenging (as in curriculum/active/adversarial learning) and how we can turn this into a useful training paradigm (such as RLHF or open ended RL).</p>
+            <p>This means I'm interested in how we evaluate models on complex criteria (such as with learned reward functions), how we can systematically generate examples the model finds challenging (as in curriculum/active/adversarial learning) and how we can turn this into a useful training paradigm (such as RLHF or open ended RL). You can read more about <Link href="/research">my research interests here.</Link></p>
 
-            <p>Outside of work I love running and the outdoors. If any of the above interests you, get in touch!</p>
+            <p>Outside of work I love running, the outdoors and tinkering with <Link href="/projects">fun projects</Link>. Like any self-important programmer I have a blog that you can <Link href="/blog">read here</Link>. If any of the above interests you, get in touch!</p>
         </section>
     )
 }
