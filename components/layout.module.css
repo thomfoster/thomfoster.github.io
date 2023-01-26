@@ -82,6 +82,7 @@
     font-weight: 300;
     color: var(--color-vdim);
     text-decoration: none;
+    font-size: var(--font-size-s);
 }
 
 @media only screen and (max-width: 600px) {

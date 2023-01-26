@@ -1,4 +1,5 @@
 import Layout from "../components/layout";
+import Link from "next/link";
 
 export default function Research() {
     return (
@@ -10,8 +11,8 @@ export default function Research() {
                 <p>
                     Here are some projects I've been up to, for fun and for clients:
                     <ul>
-                        <li>minRLHF: A tutorial on RLHF</li>
-                        <li>wikigusser: A fun game for testing your general knowledge</li>
+                        <li><Link href="https://github.com/thomfoster/minRLHF">minRLHF</Link>: A tutorial on RLHF</li>
+                        <li><Link href="https://wikiguesser.pythonanywhere.com/">Wikiguesser</Link>: A fun game for testing your general knowledge. If you're the owner of <Link href="https://www.wikiguesser.com/">wikiguesser.com</Link> and you're reading this - get your own ideas!</li>
                     </ul>
                 </p>
             </section>

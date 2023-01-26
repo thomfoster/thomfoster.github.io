@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./layout.module.css";
 import Link from "next/link";
+import Head from "next/head";
 
 function Header() {
   return (
@@ -36,7 +37,7 @@ function Hero() {
 function Footer() {
   return (
     <div className={styles.footer}>
-      <h3>Made with love (and react) by me in 2023.</h3>
+      <h3>Made by me in 2023. fosterthom16(at)gmail(dot)com. </h3>
     </div>
   );
 }
@@ -44,6 +45,12 @@ function Footer() {
 export default function Layout({ children, retPage }) {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Thom Foster | About</title>
+        <meta name="title" content="Thom Foster | About"/>
+        <meta name="description" content="Thom Foster's personal website"/>
+        <meta name="author" content="Thom Foster"/>
+      </Head>
       <Header />
       <Hero />
       <div className={styles.main}>
