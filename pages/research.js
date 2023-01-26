@@ -6,7 +6,7 @@ export default function Research() {
             <section>
                 <h2>Research</h2>
                 <p>
-                    This is some text about my research interests.
+                    Coming soon! If you know me, nag me to publish this!
                 </p>
             </section>
         </Layout>

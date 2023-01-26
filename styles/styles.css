@@ -37,25 +37,6 @@ html {
     line-height: 1.5;
 }
 
-a:link {
-    text-decoration: none;
-    color: var(--color-highlight);
-    font-size: var(--font-size-s);
-}
-
-a:visited {
-    text-decoration: none;
-    color: var(--color-highlight);
-    font-size: var(--font-size-s);
-}
-
-/* 
-a:hover {
-    text-decoration: none;
-    color: var(--color-highlight);
-    font-size: var(--font-size-s);
-} */
-
 
 h2, h3 {
     font-size: var(--font-size-s);
@@ -64,6 +45,11 @@ h2, h3 {
 
 section {
     margin-bottom: calc(3 * var(--spacing-m));
+}
+
+a {
+    color: var(--color-default);
+    font-weight: 500;
 }
 
 section > h2 {

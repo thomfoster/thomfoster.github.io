@@ -7,9 +7,9 @@ function Header() {
     <div className={styles.header}>
       <header>
         <div>
-          <a href="/">
+          <Link href="/">
             <h2>Thomas Foster</h2>
-          </a>
+          </Link>
           Building and exploring deep learning
           <br />
           London, UK

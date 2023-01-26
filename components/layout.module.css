@@ -20,6 +20,18 @@
     font-size: var(--font-size-s);
 }
 
+.header a:link {
+    text-decoration: none;
+    color: var(--color-highlight);
+    font-size: var(--font-size-s);
+}
+
+.header a:visited {
+    text-decoration: none;
+    color: var(--color-highlight);
+    font-size: var(--font-size-s);
+}
+
 .closeUpImage {
     display: none;
 }
@@ -69,6 +81,7 @@
 .backToHome > a {
     font-weight: 300;
     color: var(--color-vdim);
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {

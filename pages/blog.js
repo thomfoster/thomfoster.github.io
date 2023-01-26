@@ -11,14 +11,18 @@ export default function Blog({ allPostsData }) {
                 <p>
                     Not entirely sure why I write, but here goes!
                 </p>
-                    {allPostsData.map((post) => (
-                        <p>
-                            <small>{post.date}</small>
-                            <Link href={`/blog/${post.slug}`}>
-                                <h2>{post.title}</h2>
-                            </Link>
-                        </p>
-                    ))}
+                    {allPostsData.length == 0 ? (
+                        <p>It seems I haven't posted anything yet. If you know me, nag me to write more!</p>
+                    ) : (
+                        allPostsData.map((post) => (
+                            <p>
+                                <small>{post.date}</small>
+                                <Link href={`/blog/${post.slug}`}>
+                                    <h2>{post.title}</h2>
+                                </Link>
+                            </p>
+                        ))
+                    )}
             </section>
         </Layout>
     )
