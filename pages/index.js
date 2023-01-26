@@ -10,7 +10,7 @@ function About () {
         <section className="about">
             <h2>About</h2>
 
-            <p>Hey, I'm Thom! I'm not quite sure what to call myself - not so long ago I was a student, and up until recently I was an entrepreuner. More on that below. </p>
+            <p>Hey! I'm Thom. I'm not quite sure what to call myself - not so long ago I was a student, and up until recently I was an entrepreuner. More on that below. </p>
             
             <p>Since late 2022, I've been increasinly focused on research, and am currently excitedly exploring opportunities in academia and industry. I'm particularly interested in how we can automate the evaluation and training of deep neural nets.</p>
 
